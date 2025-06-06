@@ -4,7 +4,7 @@ time1 = tmr.create()
 
 function Acquire_Data()
    status,temp,humi,temp_dec,humi_dec = dht.read11(Temp_Humi_Pin)
-   print("temp:"..temp,"  humi:"..humi) 
+   --print("temp:"..temp,"  humi:"..humi) 
 end
 
 

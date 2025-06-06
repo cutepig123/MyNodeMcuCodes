@@ -67,7 +67,7 @@ local function measure()
     --distance= duration * 0.034/2.0;
     --// Prints the distance on the Serial Monitor
     --print("Distance: ", distance);
-    print('duration', duration, 'distance is', duration / 58, 'cm')
+    --print('duration', duration, 'distance is', duration / 58, 'cm')
     local dist = duration / 58
     return dist
 end

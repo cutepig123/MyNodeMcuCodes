@@ -2,7 +2,7 @@
 
 local function setuptimer(callback)
     local time1 = tmr.create() 
-    time1:alarm(1000, tmr.ALARM_AUTO, callback)
+    time1:alarm(2000, tmr.ALARM_AUTO, callback)
     return time1
 end
 
